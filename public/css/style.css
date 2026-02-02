@@ -103,8 +103,9 @@ iframe {
 }
 
 #republique {
-    background-color: #363636;
+    background-color: white;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #republique h1 {
