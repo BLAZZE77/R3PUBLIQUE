@@ -50,6 +50,8 @@ ul li a {
 
 footer {
     background-color: #363636;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 footer h2 {
@@ -100,6 +102,81 @@ iframe {
     height: 320px;
 }
 
+#republique {
+    background-color: #363636;
+    padding-top: 2rem;
+}
+
+#republique h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #363636;
+}
+
+#republique p, #republique h2 {
+    color: #363636;
+    padding-bottom: 2rem;
+}
+
+#republique h2 {
+    font-size: 2rem;
+}
+
+#republique p {
+    font-size: 1.5rem;
+}
+
+#republique .container {
+    background-color: #F06E56;
+    padding-top: 2rem;
+    border-radius: 1rem;
+}
+
+.symboles {
+    display: flex;
+    gap: 25px;
+}
+
+.symboles-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.symboles-img {
+    width: 20%;
+}
+
+.symboles-img img {
+    height: 400px;
+    object-fit: contain;
+}
+
+.origine {
+    display: flex;
+    gap: 25px;
+}
+
+.origine-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.origine-img {
+    width: 20%;
+}
+
+.origine-img img {
+    height: 400px;
+    object-fit: contain;
+}
+
+.repu p {
+    margin-bottom: 0;
+}
 
 
 

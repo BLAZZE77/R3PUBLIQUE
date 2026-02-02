@@ -2,4 +2,38 @@
 
 {% block title %}La République{% endblock %}
 
-{% block main %}{% endblock %}
+{% block main %}
+
+<section id="republique">
+    <div class="container">
+        <h1>La République qu'est ce que c'est ?</h1>
+        <div class="origine container">
+            <div class="origine-img">
+                <img src="{{asset('img/honore.JPG')}}" alt="République Honoré">
+            </div>
+            <div class="origine-content">
+                <h2>Origine et définition</h2>
+                <p>La république trouve ses origines dans l'Antiquité, notamment dans la Rome antique, où elle désignait un mode de gouvernement sans roi, fondé sur la participation des citoyens et l'élection de magistrats. Le terme « république » vient du latin res publica, qui signifie littéralement « la chose publique », c'est-à-dire ce qui appartient à l'ensemble du peuple et doit être géré dans l'intérêt général. Contrairement à la monarchie, le pouvoir n'y est pas détenu par un individu unique de manière héréditaire, mais exercé au nom de la collectivité. Cette idée s'est progressivement enrichie au fil de l'histoire, notamment avec les philosophes des Lumières, pour intégrer des principes fondamentaux comme la souveraineté du peuple, l'égalité devant la loi et la séparation des pouvoirs, qui constituent aujourd'hui le socle des républiques modernes.</p>
+            </div>
+        </div>
+        <div class="types container">
+            <h2>La république mondiale sous toutes ses formes</h2>
+            <p>Il existe différents types de républiques, qui se distinguent par la manière dont le pouvoir est exercé et organisé. On parle de république démocratique lorsque les dirigeants sont élus par le peuple et gouvernent dans le respect des libertés fondamentales, comme en France. La république présidentielle se caractérise par un président disposant de pouvoirs importants, souvent à la fois chef de l'État et du gouvernement, tandis que la république parlementaire confie l'essentiel du pouvoir exécutif à un gouvernement responsable devant le Parlement. Certaines républiques sont dites fédérales, lorsque le pouvoir est partagé entre un État central et des entités fédérées, alors que d'autres sont unitaires, avec un pouvoir centralisé. Enfin, il existe aussi des républiques autoritaires, où le terme « république » est utilisé mais où le pouvoir est concentré entre quelques mains, sans réelle participation démocratique du peuple.</p>
+        </div>
+        <div class="symboles container">
+            <div class="symboles-content">
+                <h2>Les grands symboles de la République Française</h2>
+                <p>La République française se reconnaît à plusieurs symboles forts qui incarnent ses valeurs et son histoire. Parmi eux, Marianne représente la liberté et le peuple souverain ; elle est souvent figurée par une femme portant le bonnet phrygien, symbole hérité de la Révolution française. Le drapeau tricolore bleu, blanc et rouge symbolise l'union de la nation, associant les couleurs de Paris et de la monarchie. La devise « Liberté, Égalité, Fraternité » exprime les principes fondamentaux de la République et guide l'action de l'État. On peut aussi citer La Marseillaise, l'hymne national, qui rappelle la lutte pour la liberté, ainsi que le coq gaulois, symbole plus ancien de la fierté et de l'identité françaises. Ensemble, ces symboles renforcent le sentiment d'appartenance à la République et à ses valeurs communes.</p>
+            </div>
+            <div class="symboles-img">
+                <img src="{{asset('img/flag.JPEG')}}" alt="Drapeau Français">
+            </div>
+        </div>
+        <div class="repu container">
+            <h2>Les différentes Républiques Françaises</h2>
+            <p>Les cinq Républiques françaises se succèdent et se distinguent par leur contexte historique et leur organisation du pouvoir. La Première République (1792-1804), née de la Révolution française, met fin à la monarchie et affirme la souveraineté du peuple, mais elle est marquée par une forte instabilité politique. La Deuxième République (1848-1852) instaure le suffrage universel masculin et élit pour la première fois un président de la République, mais elle est de courte durée. La Troisième République (1870-1940) s'inscrit dans la durée et consolide la démocratie parlementaire ainsi que les libertés publiques, notamment avec les lois scolaires. La Quatrième République (1946-1958) renforce le rôle du Parlement mais souffre d'une grande instabilité gouvernementale, notamment face aux crises coloniales. Enfin, la Cinquième République (depuis 1958) se caractérise par un pouvoir exécutif fort, avec un président disposant de larges compétences, afin d'assurer une plus grande stabilité politique.</p>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

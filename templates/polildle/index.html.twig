@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Polildle - Devinez la personnalité politique{% endblock %}
+
+{% block main %}
+<link rel="stylesheet" href="{{ asset('css/polildle.css') }}">
+
+<div class="polildle-container container">
+    <h1>Polildle</h1>
+    <p class="subtitle">Devinez la personnalité politique française du jour !</p>
+
+    <div class="search-wrapper">
+        <input type="text" id="search-input" placeholder="Tapez un nom..." autocomplete="off">
+        <div id="autocomplete-dropdown" class="autocomplete-dropdown"></div>
+    </div>
+
+    <div id="victory-message" class="victory-message" style="display:none;">
+        <h2>Bravo !</h2>
+        <p>Vous avez trouvé en <span id="guess-count"></span> tentative(s) !</p>
+    </div>
+
+    <div id="results-table" class="results-table">
+        <div class="results-header">
+            <div class="cell">Nom</div>
+            <div class="cell">Parti</div>
+            <div class="cell">Fonction</div>
+            <div class="cell">Bord</div>
+            <div class="cell">Année</div>
+            <div class="cell">Genre</div>
+            <div class="cell">République</div>
+        </div>
+        <div id="results-body"></div>
+    </div>
+</div>
+
+<script src="{{ asset('js/polildle.js') }}"></script>
+{% endblock %}
